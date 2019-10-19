@@ -4,7 +4,7 @@
 - `_` is used before variables, functions and methods to silence the compiler or to ignore a component in a destructure;
 - Casting: `let integer = decimal as u8;`;
 - Tuple assignment: `let (integer, boolean) = (1, true);`;
-- Init array with the same values: `let ys: [i32; 500] = [0; 500];`;
+- Initialize array with the same values: `let ys: [i32; 500] = [0; 500];`;
 - Define a multable variable: `let mut mutable_binding = 1;`;
 - Aliasing: `type NanoSecond = u64;`;
 - Labels for command loop: `'outer: loop {...`. To break: `break 'outer;`;
@@ -15,7 +15,7 @@
 - Diverging functions: functions with no return;
 - Assignment: can copy, move or borrow;
   - Move: pointer;
-  - Borrowing: variable by reference. Multable variables freezes and can be mutable or immutable borrowing;
+  - Borrowing: variable by reference. Mutable variables freezes and can be mutable or immutable borrowing;
 
 
 ## POO Mapping
@@ -26,7 +26,7 @@
 -
 
 ## Interesting features
-- Destructures let the code cleaner and powerfull (and they can be used in a lot of ways: `struct`, `match`, `ref` etc.);
+- Destructures let the code cleaner and powerful (and they can be used in a lot of ways: `struct`, `match`, `ref` etc.);
 - We can use `enum` to create linked lists;
 - Labels for command loop: `'outer: loop`;
 - Set a value from a loop directly: `let result = loop {...`;
@@ -36,10 +36,13 @@
   - As parameters: `9-Functions/7-closures-as-parameters.rs`;
 - Higher order functions: `9-Functions/10-higher-order-functions.rs`.
 - Phantom type may be very useful, mainly for metrics;
-- Lifetimes can help to optimize the use of memory.
+- Lifetimes can help to optimize the use of memory;
+- A very powerful macro system. `// It is still to advanced for me.`
+
 
 ### Interesting traits
 - From: `6-Conversion/0-from-and-into.rs`
+
 
 ## Still learning about
 - crate;
@@ -51,6 +54,8 @@
   - `where`;
   - Associated types;
 - Ord and operators traits;
+- A very powerfull macro system.
+
 
 ## Printing
 - `1-HelloWorld/3-prints.rs`
