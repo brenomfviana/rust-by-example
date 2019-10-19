@@ -18,7 +18,7 @@
   - Borrowing: variable by reference. Mutable variables freezes and can be mutable or immutable borrowing;
 
 
-## POO Mapping
+## OOP Mapping
 - `struct`: class;
   - To implement methods use: `impl <struct-name> { <functions>; }`
 - Inheritance/Polymorphism: `traits`;
@@ -37,7 +37,9 @@
 - Higher order functions: `9-Functions/10-higher-order-functions.rs`.
 - Phantom type may be very useful, mainly for metrics;
 - Lifetimes can help to optimize the use of memory;
-- A very powerful macro system. `// It is still to advanced for me.`
+- A very powerful macro system. `// It is still to advanced for me.`;
+- Error handling with `Option<T>` and `Result<T, Err>` is very useful;
+  - `Result<Option<i32>, ParseIntError>` looks like the best option for handling multiple errors types.
 
 
 ### Interesting traits
@@ -46,7 +48,6 @@
 
 ## Still learning about
 - crate;
-- `Option<T>`;
 - `Box<T>`: is a pointer to a heap allocated type;
 - `if let Some(i) = number`;
 - `while let Some(i) = number`;
