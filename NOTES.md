@@ -5,7 +5,7 @@
 - Casting: `let integer = decimal as u8;`;
 - Tuple assignment: `let (integer, boolean) = (1, true);`;
 - Initialize array with the same values: `let ys: [i32; 500] = [0; 500];`;
-- Define a multable variable: `let mut mutable_binding = 1;`;
+- Define a mutable variable: `let mut mutable_binding = 1;`;
 - Aliasing: `type NanoSecond = u64;`;
 - Labels for command loop: `'outer: loop {...`. To break: `break 'outer;`;
 - Set a value from a loop directly: `let result = loop {...`;
@@ -18,7 +18,7 @@
   - Borrowing: variable by reference. Mutable variables freezes and can be mutable or immutable borrowing;
 
 
-## OOP Mapping
+## OOP Features1
 - `struct`: class;
   - To implement methods use: `impl <struct-name> { <functions>; }`
 - Inheritance/Polymorphism: `traits`;
@@ -37,25 +37,28 @@
 - Higher order functions: `9-Functions/10-higher-order-functions.rs`.
 - Phantom type may be very useful, mainly for metrics;
 - Lifetimes can help to optimize the use of memory;
-- A very powerful macro system. `// It is still to advanced for me.`;
+- A very powerful macro system;
 - Error handling with `Option<T>` and `Result<T, Err>` is very useful;
-  - `Result<Option<i32>, ParseIntError>` looks like the best option for handling multiple errors types.
+  - `Result<Option<i32>, ParseIntError>` looks like the best option for handling multiple errors types;
+  - The possibility of easily divide an array with errors and correct results is really awesome (`18-ErrorHandling/14-interating-over-results-iv`).
+- We can write bytes by their hexadecimal values or Unicode code points;
+- String literals can span multiple lines;
+- Raw strings;
+- Quote a string with `#"quoted string"#`;
+- RC.
 
 
 ### Interesting traits
-- From: `6-Conversion/0-from-and-into.rs`
+- From: `6-Conversion/0-from-and-into.rs`;
+- Iterator.
 
 
 ## Still learning about
-- crate;
-- `Box<T>`: is a pointer to a heap allocated type;
-- `if let Some(i) = number`;
-- `while let Some(i) = number`;
-- Generics;
+- Generics bounds;
   - `where`;
-  - Associated types;
-- Ord and operators traits;
-- A very powerfull macro system.
+  - Associated types.
+- `Ord` and operators traits;
+- Macro system.
 
 
 ## Printing
