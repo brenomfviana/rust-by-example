@@ -13,17 +13,16 @@
 - `match` is like C `switch`, but better;
   - We can define a range: `match {... n @ 1 ..= 12 => ...`;
 - Diverging functions: functions with no return;
-- Assignment: can copy, move or borrow;
+- Assignment: can copy, move or borrow.
   - Move: pointer;
-  - Borrowing: variable by reference. Mutable variables freezes and can be mutable or immutable borrowing;
+  - Borrowing: variable by reference. Mutable variables freezes and can be mutable or immutable borrowing.
 
 
-## OOP Features1
+## OOP Features
 - `struct`: class;
   - To implement methods use: `impl <struct-name> { <functions>; }`
 - Inheritance/Polymorphism: `traits`;
-  - Defines functions which can be implemented by structs;
--
+  - Defines functions which can be implemented by structs.
 
 ## Interesting features
 - Destructures let the code cleaner and powerful (and they can be used in a lot of ways: `struct`, `match`, `ref` etc.);
@@ -46,7 +45,8 @@
 - Raw strings `r"string"`;
 - Binary strings `b"string"`;
 - Quote a string with `#"quoted string"#`;
-- RC.
+- RC;
+- Raw identifiers.
 
 
 ### Interesting traits
@@ -60,8 +60,8 @@
   - Associated types.
 - `Ord` and operators traits;
 - Macro system;
-- Pipes;
+- Pipes.
 
 
 ## Printing
-- `1-HelloWorld/3-prints.rs`
+- `1-HelloWorld/3-prints.rs`.
