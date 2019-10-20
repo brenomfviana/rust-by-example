@@ -43,7 +43,8 @@
   - The possibility of easily divide an array with errors and correct results is really awesome (`18-ErrorHandling/14-interating-over-results-iv`).
 - We can write bytes by their hexadecimal values or Unicode code points;
 - String literals can span multiple lines;
-- Raw strings;
+- Raw strings `r"string"`;
+- Binary strings `b"string"`;
 - Quote a string with `#"quoted string"#`;
 - RC.
 
@@ -58,7 +59,8 @@
   - `where`;
   - Associated types.
 - `Ord` and operators traits;
-- Macro system.
+- Macro system;
+- Pipes;
 
 
 ## Printing
